@@ -7,5 +7,5 @@ function solution(n_str) {
             break;
         }
     }
-    return n_str.indexOf('0') === 0 ? n_str.slice(cnt + 1) : n_str;  
+    return n_str.indexOf('0') === 0 ? n_str.slice(cnt + 1) : n_str; 
 }
