@@ -14,7 +14,7 @@ function solution(a, b, c, d) {
         p = arr.indexOf(3) + 1;
         q = arr.indexOf(1) + 1;
         return (10 * p + q) ** 2;
-    } else if (arr.indexOf(2) !== arr.lastIndexOf(2) && arr.indexOf(1) === -1) {
+    } else if (arr.indexOf(2) !== arr.lastIndexOf(2)) {
         p = arr.indexOf(2) + 1;
         q = arr.lastIndexOf(2) + 1;
         return (p + q) * Math.abs(p - q);
